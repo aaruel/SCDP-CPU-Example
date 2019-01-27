@@ -19,7 +19,7 @@ entity control_unit is
 		--              |----|
 		--       ALU ---     |---- REG_WRITER
 		--                   |
-		--	     RAM --------|
+		--       RAM --------|
 		imm_alu_writedata_switch: out std_logic;
 		ia_ram_writedata_switch: out std_logic
 	);

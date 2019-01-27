@@ -116,7 +116,7 @@ begin
 	--   |
 	--   |
 	-- \ | /
-	-- 	\|/
+	--  \|/
 	
 	INSTRUCTION_MEM: HW_memory generic map(ADDRESSES => instructions'LENGTH) port map(
 		address => pc_output,
@@ -133,7 +133,7 @@ begin
 	--   |
 	--   |
 	-- \ | /
-	-- 	\|/
+	--  \|/
 	
 	CTRL_UNIT: control_unit port map(
 		opcode => idecode(14 downto 12),
@@ -187,7 +187,7 @@ begin
 	--   |
 	--   |
 	-- \ | /
-	-- 	\|/
+	--  \|/
 	
 	ALU: alu_module port map(
 		S0 => idecode(12),
@@ -203,7 +203,7 @@ begin
 	--   |
 	--   |
 	-- \ | /
-	-- 	\|/
+	--  \|/
 	
 	RAM: HW_memory generic map(ADDRESSES => 256) port map(
 		address => se_immediate,

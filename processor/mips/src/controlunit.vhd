@@ -16,10 +16,10 @@ entity control_unit is
 		--   - RAM (I-TYPE)
 		--
 		-- IMMEDIATE ---
-		--				|----|
-		--       ALU ---	 |---- REG_WRITER
+		--              |----|
+		--       ALU ---     |---- REG_WRITER
 		--                   |
-		--		 RAM --------|
+		--	     RAM --------|
 		imm_alu_writedata_switch: out std_logic;
 		ia_ram_writedata_switch: out std_logic
 	);

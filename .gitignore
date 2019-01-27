@@ -1,0 +1,17 @@
+*.adf
+*.aws
+*.wsw
+*.wsp
+*.ini
+*.cfg
+*.set
+*.order
+*.asdb
+*.awc
+*.mgf
+*.log
+*.lib
+*.do
+*.awf
+.DS_Store
+/**/compile
